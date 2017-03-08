@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">T-Health</string>
+    <string name="title_activity_activity__open">Activity_Open</string>
+    <string name="title_activity__menu">Activity_Menu</string>
+    <string name="title_activity_profile">ActivityProfile</string>
+    <string name="title_activity_food">ActivityFood</string>
+    <string name="title_activity_exercise">ActivityExercise</string>
+    <string name="title_activity_show">ActivityShow</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="title_activity__menu_app">Activity_MenuApp</string>
+    <string name="title_activity__menu_maps">Activity_MenuMaps</string>
+    <string name="title_activity__menu_news">Activity_MenuNews</string>
+    <string name="title_activity__menu_contact">Activity_MenuContact</string>
+    <string name="title_activity_add_food">AddFoodActivity</string>
+    <string name="title_activity_add_exercise">AddExerciseActivity</string>
+    <string name="title_activity_edit_food">EditFoodActivity</string>
+    <string name="title_activity_delete_food">DeleteFoodActivity</string>
+
+
+</resources>
+

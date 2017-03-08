@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aungpao.t_health">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.sau.comsci.Activity_Open"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sau.comsci.Activity_Menu"
+            android:label="เมนูหลัก"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sau.comsci.ActivityProfile"
+            android:label="ข้อมูลผู้ใช้งาน"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sau.comsci.ActivityFood"
+            android:label="รายการอาหาร"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sau.comsci.ActivityExercise"
+            android:label="เผาผลาญพลังงาน"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sau.comsci.ActivityShow"
+            android:label="คำนวนพลังงาน"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sau.comsci.EditProfile"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sau.comsci.Activity_MenuApp"
+            android:label="แอพพลิเคชั่น"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sau.comsci.Activity_MenuMaps"
+            android:label="แผนที่"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sau.comsci.Activity_MenuNews"
+            android:label="ข่าวสาร"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sau.comsci.Activity_MenuContact"
+            android:label="อื่นๆ"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.sau.comsci.ShowFoodActivity" />
+        <activity android:name="com.sau.comsci.ShowExerciseActivity" />
+        <activity
+            android:name="com.sau.comsci.AddFoodActivity"
+            android:label="@string/title_activity_add_food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sau.comsci.AddExerciseActivity"
+            android:label="@string/title_activity_add_exercise"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sau.comsci.EditFoodActivity"
+            android:label="@string/title_activity_edit_food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sau.comsci.DeleteFoodActivity"
+            android:label="@string/title_activity_delete_food"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

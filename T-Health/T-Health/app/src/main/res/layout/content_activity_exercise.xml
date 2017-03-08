@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_activity_exercise"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sau.comsci.ActivityExercise"
+    tools:showIn="@layout/activity_exercise">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <SearchView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="#f7f7fc"></SearchView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnShowAllExercise"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:text="กิจกรรมทั้งหมด"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnAddExercise"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:text="เพิ่มกิจกรรม"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnEditExercise"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:text="แก้ไขกิจกรรม"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnDeleteExercise"
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:text="ลบกิจกรรม"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
